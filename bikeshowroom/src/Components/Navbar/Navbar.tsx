@@ -46,15 +46,15 @@ const Navbar = () => {
                     >
                         <option value="">Default</option>
                         <option value="🌸">Pink</option>
-                        <option value="🐬">Blue</option>
+                        <option value="🐬">Green</option>
                         <option value="🐤">Yellow</option>
                     </select>
-                    <a href="/" className="block md:inline px-2 py-1 hover:text-blue-300  rounded">Home</a>
-                    <a href="/services" className="block md:inline px-2 py-1 hover:text-blue-300 rounded">Services</a>
-                    <a href="/bikes" className="block md:inline px-2 py-1 hover:text-blue-300 rounded">Bikes</a>
-                    <a href="/scooters" className="block md:inline px-2 py-1 hover:text-blue-300 rounded">Scooters</a>
-                    <a href="/locations" className="block md:inline px-2 py-1 hover:text-blue-300 rounded">Locations</a>
-                    <a href="/contact" className="block md:inline px-2 py-1 hover:text-blue-300 rounded">Contact</a>
+                    <a href="/" className="block md:inline px-2 py-1 hover:text-blue-300 shadow-sm rounded">Home</a>
+                    <a href="/services" className="block md:inline px-2 py-1 hover:text-blue-300 shadow-sm rounded">Services</a>
+                    <a href="/bikes" className="block md:inline px-2 py-1 hover:text-blue-300 shadow-sm rounded">Bikes</a>
+                    <a href="/scooters" className="block md:inline px-2 py-1 hover:text-blue-300 shadow-sm rounded">Scooters</a>
+                    <a href="/locations" className="block md:inline px-2 py-1 hover:text-blue-300 shadow-sm rounded">Locations</a>
+                    <a href="/contact" className="block md:inline px-2 py-1 hover:text-blue-300 shadow-sm rounded">Contact</a>
                 </div>
             </div>
 

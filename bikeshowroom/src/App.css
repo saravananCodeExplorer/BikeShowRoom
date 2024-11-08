@@ -29,7 +29,7 @@
 }
 
 [data-theme='🐬'] {
-  --color-default: #7ec6ff; /* Blue theme background color */
+  --color-default: green; /* Blue theme background color */
   --text-default: #000000;  /* Blue theme text color */
 }
 

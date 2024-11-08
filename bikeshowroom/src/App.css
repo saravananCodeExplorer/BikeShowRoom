@@ -60,3 +60,43 @@ body {
 
   }
 }
+/* motot bike-container */
+/* Add this to your CSS file (e.g., styles.css or index.css) */
+
+/* Create a 3D rotation animation */
+@keyframes rotate3d {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  25% {
+    transform: rotateY(90deg) rotateX(0deg);
+  }
+  50% {
+    transform: rotateY(180deg) rotateX(0deg);
+  }
+  75% {
+    transform: rotateY(270deg) rotateX(0deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(0deg);
+  }
+}
+
+/* Apply 3D perspective on the parent container */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Apply the rotating animation to the image containers */
+.animate-rotate-3d {
+  animation: rotate3d 10s infinite linear;
+  transform-style: preserve-3d;
+}
+
+/* Optionally, you can add an easing for smoother transitions */
+img {
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+

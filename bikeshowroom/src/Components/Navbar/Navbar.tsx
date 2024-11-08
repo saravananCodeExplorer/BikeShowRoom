@@ -38,9 +38,9 @@ const Navbar = () => {
 
                 {/* Menu */}
                 <div className={`md:flex items-center space-x-4 hidden`}>
-                    <select
+                    <select 
                         data-choose-theme
-                        className='border-none px-2 py-1 rounded'
+                        className='border-none px-2 py-1 rounded  bg-transparent text-gray-900'
                         onChange={handleSelectColor}
                         value={selectedColor} // Optional: to make the select element controlled
                     >

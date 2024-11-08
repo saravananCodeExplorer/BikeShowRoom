@@ -1,0 +1,45 @@
+/* Define default colors */
+:root {
+  --color-default: #ffffff; /* Background color */
+  --text-default: #000000;  /* Text color */
+}
+
+/* Dark mode prefers-color-scheme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-default: #252b30; /* Dark mode background color */
+    --text-default: #ffffff;  /* Dark mode text color */
+  }
+}
+
+/* Custom themes */
+[data-theme='dark'] {
+  --color-default: #252b30; /* Dark theme background color */
+  --text-default: #ffffff;  /* Dark theme text color */
+}
+
+[data-theme='black'] {
+  --color-default: #000000; /* Black theme background color */
+  --text-default: #ffffff;  /* Black theme text color */
+}
+
+[data-theme='🌸'] {
+  --color-default: #ffabc8; /* Pink theme background color */
+  --text-default: #000000;  /* Pink theme text color */
+}
+
+[data-theme='🐬'] {
+  --color-default: #7ec6ff; /* Blue theme background color */
+  --text-default: #000000;  /* Blue theme text color */
+}
+
+[data-theme='🐤'] {
+  --color-default: #ffd65a; /* Yellow theme background color */
+  --text-default: #000000;  /* Yellow theme text color */
+}
+
+/* Apply colors */
+body {
+  background-color: var(--color-default);
+  color: var(--text-default);
+}

@@ -38,6 +38,9 @@ const ScooterContainer = () => {
    
     
     const images = [
+        'https://static.wixstatic.com/media/c1981a_04ac7b3356f0428f839fd1cbfc039a13~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_04ac7b3356f0428f839fd1cbfc039a13~mv2.png',
+        'https://static.wixstatic.com/media/c1981a_d12aecb71fb54ee98488f95c1be71778~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_d12aecb71fb54ee98488f95c1be71778~mv2.png',
+        'https://static.wixstatic.com/media/c1981a_e18653f60ecd4ae995a5644b32e285bb~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_e18653f60ecd4ae995a5644b32e285bb~mv2.png',
         'https://static.wixstatic.com/media/c1981a_03f8ee74d69845389b72ad85184531dd~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_03f8ee74d69845389b72ad85184531dd~mv2.png',
         'https://static.wixstatic.com/media/c1981a_560e0e35d6da40bf96b2bf311222166d~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_560e0e35d6da40bf96b2bf311222166d~mv2.png',
         'https://static.wixstatic.com/media/c1981a_8237d6179ac94ce4af51f0138475bf62~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_8237d6179ac94ce4af51f0138475bf62~mv2.png',

@@ -81,19 +81,5 @@ body {
 
 
   /* scooter container */
-/* Add this CSS */
-/* CSS for 360-degree rotation animation */
-.rotate-animation {
-  animation: rotate360 0.5s ease-in-out;
-}
-
-@keyframes rotate360 {
-  from {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(360deg);
-  }
-}
 
 

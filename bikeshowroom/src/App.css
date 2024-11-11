@@ -82,15 +82,21 @@ body {
 
   /* scooter container */
   /* Add this in your global CSS file */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
-  100% {
-    opacity: 1;
+  
+  @keyframes scaleUp {
+    from { transform: scale(1); }
+    to { transform: scale(1.05); }
   }
-}
-
-.animate-fadeIn {
-  animation: fadeIn 1s ease-in-out ;
-}
+  
+  .animate-fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .animate-scale-up:hover {
+    animation: scaleUp 0.3s ease-in-out forwards;
+  }
+  

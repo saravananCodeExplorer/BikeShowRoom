@@ -35,29 +35,32 @@ const MotorBikeContainer = () => {
         Motor Bike
       </h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 perspective-1000">
-        <div className="p-4 mx-auto animate-rotate-3d">
-          <img
-            src="https://static.wixstatic.com/media/c1981a_04ac7b3356f0428f839fd1cbfc039a13~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_04ac7b3356f0428f839fd1cbfc039a13~mv2.png"
-            alt="Motorbike 1"
-            className="transform transition-transform duration-300"
-          />
-        </div>
-        <div className="p-4 mx-auto animate-rotate-3d">
-          <img
-            src="https://static.wixstatic.com/media/c1981a_d12aecb71fb54ee98488f95c1be71778~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_d12aecb71fb54ee98488f95c1be71778~mv2.png"
-            alt="Motorbike 2"
-            className="transform transition-transform duration-300"
-          />
-        </div>
-        <div className="p-4 mx-auto animate-rotate-3d">
-          <img
-            src="https://static.wixstatic.com/media/c1981a_e18653f60ecd4ae995a5644b32e285bb~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_e18653f60ecd4ae995a5644b32e285bb~mv2.png"
-            alt="Motorbike 3"
-            className="transform transition-transform duration-300"
-          />
-        </div>
-      </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 perspective-1000">
+  <div className="p-4 mx-auto group">
+    <img
+      src="https://static.wixstatic.com/media/c1981a_04ac7b3356f0428f839fd1cbfc039a13~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_04ac7b3356f0428f839fd1cbfc039a13~mv2.png"
+      alt="Motorbike 1"
+      className="transform transition-transform duration-500 group-hover:rotate-y-180"
+    />
+  </div>
+  <div className="p-4 mx-auto group">
+    <img
+      src="https://static.wixstatic.com/media/c1981a_d12aecb71fb54ee98488f95c1be71778~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_d12aecb71fb54ee98488f95c1be71778~mv2.png"
+      alt="Motorbike 2"
+      className="transform transition-transform duration-500 group-hover:rotate-y-180"
+    />
+  </div>
+  <div className="p-4 mx-auto group">
+    <img
+      src="https://static.wixstatic.com/media/c1981a_e18653f60ecd4ae995a5644b32e285bb~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_e18653f60ecd4ae995a5644b32e285bb~mv2.png"
+      alt="Motorbike 3"
+      className="transform transition-transform duration-500 group-hover:rotate-y-180"
+    />
+  </div>
+</div>
+
+
+
     </main>
   );
 };

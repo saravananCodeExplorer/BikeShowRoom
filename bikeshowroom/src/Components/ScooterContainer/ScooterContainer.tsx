@@ -2,6 +2,14 @@ import React from 'react'
 
 const ScooterContainer = () => {
     return (
+        <main>
+              <h1 className="uppercase text-center text-4xl font-bold bg-gray-800 text-white hover:shadow-lg
+        hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer animate-fadeIn">
+        Scooter
+      </h1>
+
+
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
        
             <div className="p-4 mx-auto">
@@ -14,7 +22,9 @@ const ScooterContainer = () => {
                 <img src='https://static.wixstatic.com/media/c1981a_8237d6179ac94ce4af51f0138475bf62~mv2.png/v1/fill/w_314,h_314,al_c,q_80,usm_0.66_1.00_0.01/c1981a_8237d6179ac94ce4af51f0138475bf62~mv2.png' />
             </div>
         </div>
+        </main>
     )
 }
 
 export default ScooterContainer
+

@@ -30,10 +30,9 @@ import React from 'react';
 const MotorBikeContainer = () => {
   return (
     <main>
-      <h1 className="uppercase text-center text-4xl font-bold bg-gray-800 text-white hover:shadow-lg
-        hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer animate-fadeIn">
-        Motor Bike
-      </h1>
+<h1 className="uppercase text-center text-4xl font-bold bg-gray-800 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer animate-fadeIn p-1 rounded-lg w-4/5 mx-auto">
+Motor bike
+</h1>
       
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 perspective-1000">
   <div className="p-4 mx-auto group">

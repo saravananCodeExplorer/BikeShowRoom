@@ -4,9 +4,10 @@ import React from 'react'
 const OfferContainer = () => {
     return (
         <main className='py-10'>
-<h1 className='uppercase text-center text-4xl font-bold bg-gray-800 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer animate-fadeIn'>
-  What We Offer
+<h1 className="uppercase text-center text-4xl font-bold bg-gray-800 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer animate-fadeIn p-1 rounded-lg w-4/5 mx-auto">
+Offer Container
 </h1>
+
 
             <div className=" offer-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
                 <div className="p-6 rounded-lg mx-auto">
